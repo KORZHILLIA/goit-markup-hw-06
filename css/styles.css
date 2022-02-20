@@ -607,12 +607,72 @@ border-radius: 0px 0px 4px 4px;
   height: 581px;
   top: 50%;
   left: 50%;
+  padding: 40px;
   transform: translate(-50%, -50%);
   background-color: var(--white);
   border-radius: 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
   0px 1px 1px rgba(0, 0, 0, 0.14),
   0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: inherit;
+  margin-bottom: 12px;
+}
+
+.modal-form:focus-within {
+  border-color: var(--additional-and-hover-color);
+  fill: var(--additional-and-hover-color);
+}
+
+.modal-form-label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.modal-form-label-text {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: var(--font-support-color);
+}
+
+.modal-form-input {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 12px 42px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+
+.modal-form-icon {
+  position: absolute;
+  top: 11px;
+  left: 12px;
+  fill: currentColor;
+}
+
+.modal-form-feedback {
+  height: 120px;
+  padding: 12px 16px;
+  resize: none;
+  color: rgba(117, 117, 117, 0.5);
+}
+
+.modal-form-feedback::placeholder {
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
 }
 
 .modal > .flexy {

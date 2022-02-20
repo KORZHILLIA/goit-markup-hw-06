@@ -570,6 +570,50 @@
     </footer>
     <div class="backdrop is-hidden relative" data-modal>
       <div class="modal relative">
+        <h2 class="modal-header">Оставьте свои данные, мы вам перезвоним</h2>
+        <form class="modal-form">
+          <label class="modal-form-label">
+            <span class="modal-form-label-text">Имя</span>
+            <div class="relative">
+            <input type="text" name="user-name" class="modal-form-input" />
+            <svg class="modal-form-icon" width="18" height="18">
+              <use href="./images/svg/icons.svg#icon-person"></use>
+            </svg>
+            </div>
+          </label>
+          <label class="modal-form-label">
+            <span class="modal-form-label-text">Телефон</span>
+            <div class="relative">
+            <input type="tel" name="user-tel" class="modal-form-input" />
+            <svg class="modal-form-icon" width="18" height="18">
+              <use href="./images/svg/icons.svg#icon-phone"></use>
+            </svg>
+            </div>
+          </label>
+          <label class="modal-form-label">
+            <span class="modal-form-label-text">Почта</span>
+            <div class="relative">
+            <input type="email" name="user-email" class="modal-form-input" />
+            <svg class="modal-form-icon" width="18" height="18">
+              <use href="./images/svg/icons.svg#icon-email"></use>
+            </svg>
+            </div>
+          </label>
+          <label class="modal-form-label">
+            <span class="modal-form-label-text">Комментарий</span>
+            <textarea
+              name="user-feedback"
+              placeholder="Введите текст"
+              class="modal-form-input modal-form-feedback">
+            </textarea>
+          </label>
+          <input type="checkbox" name="contract" value="disagree" id="user-agreement" />
+          <label for="user-agreement" class="modal-form-agreement">
+            Соглашаюсь с рассылкой и принимаю
+            <a class="agreement-accent">Условия договора</a>
+          </label>
+          <button type="submit" class="btn modal-btn">Отправить</button>
+        </form>
         <div class="flexy" data-modal-close>
           <svg class="modal-close-btn" width="18" height="18">
             <use href="./images/svg/icons.svg#icon-modal-close"></use>

@@ -651,13 +651,18 @@ body img {
   padding: 12px 42px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  outline: none;
 }
 
 .modal-form-icon {
   position: absolute;
-  top: 11px;
+  bottom: 11px;
   left: 12px;
   fill: currentColor;
+}
+
+.modal-form-contract {
+  text-align: center;
 }
 
 .modal-form-feedback {
@@ -692,7 +697,7 @@ body img {
 }
 .modal-form-checkbox:checked + .modal-form-check {
   background-color: var(--additional-and-hover-color);
-  background-image: url(../check.svg);
+  background-image: url(../images/svg/check.svg);
   border-color: var(--additional-and-hover-color);
 }
 

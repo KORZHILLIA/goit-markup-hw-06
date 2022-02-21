@@ -491,7 +491,7 @@
           </address>
         </div>
         <div class="basement-social">
-          <h2 hidden></h2>
+          <h2 hidden>Basement Social</h2>
           <h3 class="basement-header">присоединяйтесь</h3>
           <ul class="basement-social-list no-style-list flexy">
             <li class="social-item">
@@ -572,32 +572,26 @@
       <div class="modal relative">
         <h2 class="modal-header">Оставьте свои данные, мы вам перезвоним</h2>
         <form class="modal-form">
-          <label class="modal-form-label">
+          <label class="modal-form-label relative">
             <span class="modal-form-label-text">Имя</span>
-            <div class="relative">
             <input type="text" name="user-name" class="modal-form-input" />
             <svg class="modal-form-icon" width="18" height="18">
               <use href="./images/svg/icons.svg#icon-person"></use>
             </svg>
-            </div>
           </label>
-          <label class="modal-form-label">
+          <label class="modal-form-label relative">
             <span class="modal-form-label-text">Телефон</span>
-            <div class="relative">
             <input type="tel" name="user-tel" class="modal-form-input" />
             <svg class="modal-form-icon" width="18" height="18">
               <use href="./images/svg/icons.svg#icon-phone"></use>
             </svg>
-            </div>
           </label>
-          <label class="modal-form-label">
+          <label class="modal-form-label relative">
             <span class="modal-form-label-text">Почта</span>
-            <div class="relative">
             <input type="email" name="user-email" class="modal-form-input" />
             <svg class="modal-form-icon" width="18" height="18">
               <use href="./images/svg/icons.svg#icon-email"></use>
             </svg>
-            </div>
           </label>
           <label class="modal-form-label">
             <span class="modal-form-label-text">Комментарий</span>
@@ -607,12 +601,14 @@
               class="modal-form-input modal-form-feedback">
             </textarea>
           </label>
+          <div class="modal-form-contract">
             <input type="checkbox" name="contract" value="disagree" id="user-agreement" class="modal-form-checkbox" />
-          <span class="modal-form-check"></span>
+            <span class="modal-form-check"></span>
           <label for="user-agreement" class="modal-form-agreement">
             Соглашаюсь с рассылкой и принимаю
             <a class="agreement-accent" href="#">Условия договора</a>
           </label>
+          </div>
           <button type="submit" class="btn modal-btn flexy">Отправить</button>
         </form>
         <div class="flexy" data-modal-close>

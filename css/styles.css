@@ -690,6 +690,12 @@ body img {
   background-size: cover;
   background-origin: border-box;
 }
+.modal-form-checkbox:checked + .modal-form-check {
+  background-color: var(--additional-and-hover-color);
+  background-image: url(../check.svg);
+  border-color: var(--additional-and-hover-color);
+}
+
 .modal-form-agreement {
   display: inline-block;
   margin-bottom: 30px;
@@ -700,10 +706,6 @@ body img {
   color: var(--font-support-color);
 }
 
-.modal-form-checkbox:checked + .modal-form-check {
-  background-image: url(../check.svg);
-  border-color: var(--additional-and-hover-color);
-}
 .agreement-accent {
   color: var(--additional-and-hover-color);
   text-decoration-thickness: 0.01em;
